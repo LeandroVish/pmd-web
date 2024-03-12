@@ -50,4 +50,4 @@ class UserAdmin(BaseUserAdmin):
 
 admin.site.register(models.User, UserAdmin)
 admin.site.register(models.Categoria)
-admin.site.register(Editora)
+admin.site.register(models.Editora)
